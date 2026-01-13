@@ -1,0 +1,160 @@
+body{
+    width:390px;
+    height:844px;
+    margin: auto;
+  
+    
+    background-color:#ffffff;
+   
+}
+.container{
+    width:384px;
+    height:500px;
+    
+    background-color: #080707;
+    margin:auto;
+    margin-top: 60px;
+    border-radius: 30px;
+    overflow: hidden;
+    
+    position: relative;
+    
+   
+}
+#image{
+    width:384px;
+    height:550px;
+    
+    
+    margin-top: 20px;
+    border-radius: 100px;
+    overflow: hidden;
+    margin-top: 0.5px;
+    position: relative;
+    top: 15px;
+    animation: slideup 2s ease-in  1 reverse ;
+    
+    
+   
+}#image img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    right: 400px;
+   
+    
+}
+#text{
+    width:180px;
+    height:70px;
+    
+    
+    font-size: 63px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: white;
+    
+    line-height: 80px;
+    position: absolute;
+    left: 8px;
+    top: 10px;
+    display: hidden;
+    animation: opacitychange 3s   1 reverse ;
+  
+
+   
+}
+#text2{
+    width:220px;
+    height:70px;
+    
+    
+    font-size: 40px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    line-height: 80px;
+    color: white;
+    
+    position: absolute;
+    left: 280px;
+    top: 45px;
+    animation: opacitychange 3s   1 reverse ;
+    
+    
+}
+#icons{
+    width:300px;
+    height:50px;
+    
+    display: flex;
+    position: absolute;
+
+    
+    
+    right: 200px;
+    top: 410px;
+    left:40px
+    
+   
+}
+.icons-container{
+    height: 50px;
+    width: 300px;
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px   ;
+    background: transparent;
+    background-color: rgba(255, 255, 255, 0.771);
+    border-radius: 20px;
+    padding-top: 6px;
+    animation: opacitychange 2s   1 reverse ;
+    
+   
+}
+
+
+#icons img{
+    width:30px;
+    height:30px;
+    margin-left: 2px;
+    object-fit: cover;
+    fill:rgb(255, 255, 255)
+    
+}     
+#icon2{
+    margin-bottom: 6px;
+} 
+@keyframes slideup{
+    0%{
+        top: 15px;
+        opacity: 1;
+    }
+    100%{
+        top: 150px;
+        opacity: 0;
+    }
+}     
+@keyframes opacitychange{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+#icon5{
+    margin-left: -6px;
+}
+#icon2{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+#icon3{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+#icon4{
+    margin-left: 0px;
+    margin-right: 0.5px;
+}
+  
